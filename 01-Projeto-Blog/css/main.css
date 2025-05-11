@@ -1,0 +1,131 @@
+/* ===== MAIN ===== */
+main {
+  width: 100%;
+  height: auto;
+}
+
+/* ===== CONTAINER DE CARDS ===== */
+.container-cards {
+  width: 100%;
+  height: auto;
+  padding: 3rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* ===== CARD DO ARTIGO ===== */
+.article-card {
+  width: 100%;
+  height: auto;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  border: 0.13rem solid var(--bd-color);
+  border-radius: 0.5rem;
+}
+
+/* Estado ativo do card */
+.active {
+  border: 0.13rem solid var(--bd-active);
+}
+
+/* Título do artigo */
+.article-card h2 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 120%;
+  color: var(--white);
+}
+
+/* Texto do artigo */
+.article-card p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 160%;
+}
+
+/* ===== TIME (data e ícone) ===== */
+.time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+time {
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 100%;
+  color: var(--txt-time);
+}
+
+.time img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+@media only screen and (min-width : 768px){
+/* ===== CONTAINER DE CARDS ===== */
+.container-cards {
+  width: 100%;
+  height: auto;
+  padding: 4rem 2rem;
+}
+
+/* Texto do artigo */
+.article-card p {
+  font-size: 1rem;
+}
+
+time {
+  font-size: 0.9rem;
+}
+
+.time img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+ }
+
+}
+
+@media only screen and (min-width : 1200px){
+/* ===== CONTAINER DE CARDS ===== */
+.container-cards {
+  width: 1216px;
+  height: auto;
+  padding: 5rem;
+  margin: 0 auto;
+  gap: 3rem;
+}
+
+
+
+/* Estado ativo do card */
+.active {
+  border: 0.13rem solid var(--bd-active);
+}
+
+/* Título do artigo */
+.article-card h2 {
+  font-size: 1.5rem;
+}
+
+/* Texto do artigo */
+.article-card p {
+  font-size: 1.3rem;
+}
+
+time {
+  font-size: 1rem;
+}
+
+.time img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+}
