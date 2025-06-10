@@ -9,7 +9,7 @@ Os desafios consistem em projetos práticos com foco em HTML, CSS e JavaScript, 
 
 | Desafio | Nome do Projeto       | Descrição                       | 🔗 Acessar |
 |---------|------------------------|----------------------------------|------------|
-| 01      | Blog                   | Projeto de blog com cards        | [Ver]()    |
+| 01      | Blog                   | Projeto de blog com cards        | [Ver](https://blog-inky-alpha.vercel.app/)    |
 | 02      | JordanShoes           | Landing page de calçados         | [Ver]()    |
 | 03      | TechBlog              | Blog tecnológico responsivo      | [Ver]()    |
 | 04      | Login                 | Tela de login estilizada         | [Ver]()    |
